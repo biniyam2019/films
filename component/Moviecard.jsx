@@ -16,10 +16,11 @@ function Moviecard(props) {
   https: return (
     <>
       <div className={styles.container}>
-        <Link
+        <a
           key={props.objects.id}
           href={`movies/${props.objects.original_title}/${props.objects.id}`}
           className={styles.container}>
+          
           <div className={styles.imgcontainer}>
             <Image
               src={`https://image.tmdb.org/t/p/original${props.objects.poster_path}`}
@@ -33,7 +34,8 @@ function Moviecard(props) {
           </div>
 
           <div className={styles.title}> {props.objects.original_title}</div>
-        </Link>
+            
+        </a>
       </div>
     </>
   );
