@@ -55,6 +55,29 @@
   .container {
     grid-template-columns: 1fr !important;
   }
+    .formContainer
+  { top:20px !important;
+    right: 25% !important;
+ 
+  }
+  .formInputContainer
+  {
+   
+   
+    width: fit-content;
+  }
+  .Input
+  {
+   
+    width: 100px;
+    height: 30px;
+  }
+  .buttons
+  {
+   
+   
+    height: 32px;
+  }
 }
 @media screen and (max-width:850px)
 {
@@ -63,7 +86,7 @@
   }
   .formContainer
   { top:20px !important;
- right: 25% !important;
+    right: 25% !important;
  
   }
   .formInputContainer
