@@ -4,7 +4,7 @@ import styles from '/styles/Moviedetail.module.css'
 import Image from 'next/image';
 function Moviedetail({data}) {
   
-   console.log(data.data)
+   
    
    
     
