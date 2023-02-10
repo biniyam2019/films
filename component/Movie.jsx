@@ -30,7 +30,7 @@ function Movie() {
   useEffect(() => {
     fetcher();
   }, []);
-  console.log(result);
+  
   function submitted(event) {
     event.preventDefault(); // prevent the page from reloading
     setSubmitcheck(!submitcheck);
