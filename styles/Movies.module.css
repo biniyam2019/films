@@ -58,6 +58,7 @@
     .formContainer
   { top:20px !important;
     right: 25% !important;
+    position: absolute !important;
  
   }
   .formInputContainer
@@ -87,6 +88,7 @@
   .formContainer
   { top:20px !important;
     right: 25% !important;
+    position: absolute !important;
  
   }
   .formInputContainer
