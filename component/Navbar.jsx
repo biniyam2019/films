@@ -38,10 +38,8 @@ console.log(count);
         <div className={styles.menu}>
           <ul
             className={styles.menulist}
-            style={{ translate: `calc( -100vw *${count} ` }}
-            onClick={() => {
-              right();
-            }}>
+            style={{ translate: `calc( 100vw *${count} ` }}
+           >
             <li>
               <Link href='/'> Home</Link>
             </li>
