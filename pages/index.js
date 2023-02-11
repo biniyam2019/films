@@ -7,6 +7,7 @@ import Movie from "../component/Movie";
 const inter = Inter({ subsets: ["latin"] });
 import Slider from "../component/Slider";
 import Footer from "../component/Footer";
+
 export default function Home() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
+    
       <Slider />
       <Movie />
     </>
